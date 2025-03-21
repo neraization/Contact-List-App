@@ -1,0 +1,21 @@
+{
+  "name": "contact-list-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoke": "npx playwright test",
+    "headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "UI": "npx playwright test --project UI --headed",
+    "UIheadless": "npx playwright test --project UI",
+    "API": "npx playwright test tests/API"
+  },
+  "keywords": [],
+  "author": "Nermin Maslo",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10"
+  }
+}
