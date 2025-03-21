@@ -18,8 +18,14 @@ Before setting up and running the tests, ensure you have the following installed
    ```
 
 2. Install dependencies by running the following command in the terminal:
+
    ```sh
    npm install
+   ```
+
+3. Install Playwright browsers:
+   ```sh
+   npx playwright install
    ```
 
 ## Running Tests
